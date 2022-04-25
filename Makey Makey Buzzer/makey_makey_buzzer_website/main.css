@@ -1,0 +1,87 @@
+@font-face {
+font-family: "Modern No. 20";
+src: url("fonts/modern_no._20.woff");
+src: url("fonts/modern_no._20.woff") format("woff"),
+url("fonts/modern_no._20.woff") format("opentype"),
+url("CustomFont.svg#filename") format("svg");
+}
+
+* {
+  font-family: "Modern No. 20", sans-serif;
+}
+
+#buzzersContainer {
+  width: inherit;
+  height: 50vh;
+  background-color: yellow;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1vw;
+}
+
+#team1 {
+  background-color: red;
+  width: ;
+  height: 100%;
+  flex-grow: 1;
+}
+
+#team2 {
+  background-color: blue;
+  width: ;
+  height: 100%;
+  flex-grow: 1;
+
+}
+
+#team3 {
+  background-color: orange;
+  width: ;
+  height: 100%;
+  flex-grow: 1;
+
+}
+
+#team4 {
+  background-color: pink;
+  width: ;
+  height: 100%;
+  flex-grow: 1;
+}
+
+.buzzer {
+  backgound-color: pink;
+  padding: 0%;
+  display: inherit;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  font-size: 5vh;
+  margin: 1vh 1vw 1vh 1vw;
+}
+
+main {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  padding: 0%;
+  margin: 0%;
+  background-color: purple;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
